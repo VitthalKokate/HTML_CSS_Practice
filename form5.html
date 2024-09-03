@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+        }
+        .right{
+            text-align: center;
+            color: blue;
+            right: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1 >Novell Services Login</h1>
+    <form >
+        <label for="user">Username :</label>
+        <input type="text" name="username" id="user">
+        <br>
+        <label for="passw">Password :</label>
+        <input type="password" name="password" id="passw">
+        <br>
+        <label for="city">City of <br> Employement :</label>
+        <input type="text" name="city" id="city">
+        <br>
+
+        <label for="server"> Web Server :</label>
+        <select name="server" id="server" >
+            <option value="choos">---Choose a server ----</option>
+            <option value="local">Local</option>
+            <option value="global">Global</option>
+            <option value="web" >Web</option>
+        </select>
+        <br>
+        <br>
+       
+        <div> <label for="role" style="text-align: right;"> Please Specify <br> your role</label><br></div>
+
+        <input type="radio" name="role" id="admin" class="right">
+        <label for="admin" class="right">Admin</label><br>
+        <input type="radio" name="role" id="engineer" class="right">
+        <label for="engineer" class="right">Engineer</label><br>
+        <input type="radio" name="role" id="manager" class="right">
+        <label for="admin" class="right">Manager</label><br>
+        <input type="radio" name="role" id="gest" class="right">
+        <label for="gest" class="right">Gest</label><br>
+        
+
+
+    </form>
+</body>
+</html>
